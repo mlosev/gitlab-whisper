@@ -1,0 +1,9 @@
+# Build customization
+builds:
+  - main: .
+    binary: gitlab-whisper
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
