@@ -1,4 +1,4 @@
-# gitlab-whisper
+# gitlab-whisper [![Build Status](https://travis-ci.org/mlosev/gitlab-whisper.svg?branch=master)](https://travis-ci.org/mlosev/gitlab-whisper)
 
 Have you ever tried to clone or update multiple projects at once from private Gitlab instance?\
 I decided to do that once, and, as a result, this project was born.
@@ -21,7 +21,7 @@ There is a simple Makefile, so the whole sequence of commands after cloning git 
 - `make vendor`
 - `make build`
 
-Also, I have prepared some binaries on [releases page](https://github.com/mlosev/tmux-ssh/releases),
+Also, I have prepared some binaries on [releases page](https://github.com/mlosev/gitlab-whisper/releases),
 so feel free to grab it from there.
 
 Run
