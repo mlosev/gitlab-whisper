@@ -74,7 +74,7 @@ func (r *Repo) getCurrentBranch() (string, string, error) {
 
 // HasCommits - check if repo has any commits in it
 func (r *Repo) HasCommits() (bool, error) {
-	command := []string{"rev-list", "-n", "1", "--all"}
+	command := []string{"rev-parse", "--all"}
 
 	stdout, _, err := r.execCommand(command, true)
 	if err != nil {
